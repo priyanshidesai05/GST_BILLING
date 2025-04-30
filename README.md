@@ -1,16 +1,28 @@
-# untitled2
+# GST Billing App
 
-A new Flutter project.
+A Flutter-based GST Billing App for TATA Retail Solutions.  
+- Automated GST calculation (5%, 12%, 18%, 28% split into CGST/SGST)
+- Fast product entry and billing
+- Itemized bill with tax breakdown
+- Persistent, searchable product and invoice database
+- Clean, maintainable code with Provider & Hive
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repo
+2. Run `flutter pub get`
+3. Run `flutter pub run build_runner build`
+4. Run the app: `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Add products with GST rates
+- Auto-calculate CGST, SGST, and total
+- Generate and save invoices
+- Searchable invoice history
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+
+- Flutter
+- Provider (state management)
+- Hive (local database)
