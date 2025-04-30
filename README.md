@@ -25,4 +25,3 @@ A Flutter-based GST Billing App for TATA Retail Solutions.
 
 - Flutter
 - Provider (state management)
-- Hive (local database)
